@@ -1,0 +1,119 @@
+1. Sobre o objetivo do projeto
+
+ 	Qual problema o projeto resolve? 
+ 	R: Agenda de Cliente Barbearia
+
+ 	Quem vai usar esse sistema?  
+ 	R: Gerente/ADM  Loja
+
+ 	Qual a o principal objetivo da aplicação? 
+ 	R: Organizar a agenda de compromissos do Cliente (Barbearia)
+
+ 	O que acontece quando o usu�rio abre o sistema pela primeira vez? 
+ 	R: Fazer Cadastro / Login
+
+2. Sobre as funcionalidades
+
+ 	Quais são as 3 funcionalidades mais importantes? 
+ 	R: 
+        1 - Cadastrar o Cliente
+        2 - Cadastrar os agendamentos
+	    3 - ADM gerencia os cadastros 
+
+ 	O que o usu�rio consegue fazer no sistema? 
+ 	R: Login, Cadastros, Altera�oes, Consultas, Apagar registros
+
+ 	Existe cadastro, edião ou exclusão de informações? 
+ 	R: Sim
+ 	
+    O usu�rio precisa fazer login? 
+ 	R: Sim
+ 	
+    Quais a��es s�o obrigat�rias para o sistema funcionar? 
+ 	R: Gerenciamento de Usuario
+ 	
+    Gerenciamento de profissionais (Cadastro)
+ 	R:
+    
+        Agendamento do dia 
+        Consultas / Filtros (m�s/dia)
+        Notificacoes (avisos) 
+
+3. Sobre os dados:
+
+ 	Quais informações precisam ser armazenadas?
+ 	Profissional.: CPF, Nome, Sobrenome, Celular,Clientes
+ 	Usuário......:  CPF, Nome, Sobrenome, Celular,DtAgenda
+ 	Como esses dados ser�o representados em JavaScript (objetos, arrays)? 
+ 	Json (objeto)
+ 	Quais campos cada registro ter�? 
+ 	CPF, Nome, Sobrenome, Celular
+ 	Os dados ser�o tempor�rios ou persistidos (LocalStorage, API, banco de dados)? 
+ 	Local Storage
+4. Sobre a interface
+ 	Quais telas ou p�ginas existir�o?
+ 	Cadastro, Consultar 
+ 	O que cada tela deve mostrar? 
+ 	Cadastro: CPF, Nome, Sobrenome, Celular
+ 	Consulta: Nome, celular,compromisso
+ 	Quais bot�es o usu�rio ter�? 
+ 	Cadastrar / Enrar
+ 	Consultas ..: Filtrar , Marcar / Aceitar
+ 	Como ser� a navega��o entre as p�ginas? 
+ 	Links
+5. Sobre as regras de neg�cio
+ 	Existem valida��es? 
+ 	Sim (CPF, Celular (Mascara)
+ 	O que acontece se o usu�rio inserir dados inv�lidos? 
+ 	Ap�s validar, o sistema envia uma mensagem de erro 
+ 	Existem limites ou restri��es? 
+ 	Sim (tamanho de nomes - 30 caracteres)
+ 	Como o sistema deve reagir a erros? 
+ 	Emitir mensagem para o usuario
+6. Sobre a implementa��o
+ 	Quais conceitos de JavaScript ser�o utilizados? 
+ 	Estruturas condicionais (If, else... ),Loop, Json, vari�veis, fun��es, objetos
+ 	Quais partes podem ser divididas em fun��es? 
+ 	Agendar, Sair 
+ 	Quais eventos do usu�rio ser�o tratados? 
+ 	Cadastrar, Consultar 
+ 	Ser� necess�rio consumir alguma API? 
+ 	Nao
+7. Planejamento do desenvolvimento
+ 	Qual � a vers�o m�nima do projeto (MVP)? 
+ 	N�o. So principais fun��es
+ 	O que pode ser entregue primeiro? 
+ 	Prototipo (Figma)
+ 	Quais funcionalidades podem ficar para vers�es futuras? 
+ 	Configurar para APP
+ 	Como voc�s v�o dividir as tarefas entre a equipe? 
+ 	Claudio Front (HTML, CSS)
+ 	Emanuel Back (JS) 
+ 
+
+ 
+Exerc�cio pr�tico
+Pe�a para eles preencherem esta tabela:
+Pergunta
+Resposta
+Nome do projeto
+
+Problema que resolve
+
+Usu�rio-alvo
+
+Funcionalidade 1
+
+Funcionalidade 2
+
+Funcionalidade 3
+
+Dados necess�rios
+
+Telas da aplica��o
+
+MVP (primeira vers�o)
+
+Tecnologias utilizadas
+
+
