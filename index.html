@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda Comp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="inicio">
+      <svg class="logo" viewBox="0 0 120 40">
+        <rect width="120" height="40" rx="4" fill="#1a4fba" />
+        <text
+          x="60"
+          y="29"
+          text-anchor="middle"
+          font-family="Arial Black"
+          font-size="22"
+          font-weight="900"
+          fill="#fff"
+        >
+          SENAI
+        </text>
+      </svg>
+      <h2>Por Emanoel Brian Maffei &amp; Claudio Lupi</h2>
+      <button onclick="entrar()">ENTRAR</button>
+    </div>
+    <div id="home" style="display: none">
+      <nav>
+        <a href="#home" class="ativo">Home</a><a href="#sobre">Sobre</a
+        ><a href="#contato">Contato</a>
+      </nav>
+      <header
+        class="hero"
+        style="background: linear-gradient(135deg, #e0ecff, #dbe9ff)"
+      >
+        <div style="font-size: 5rem">🤝</div>
+        <div class="hero-txt">
+          <h1>Agenda Comp</h1>
+          <p>Gerencie seus comprimissos na palma da sua mão.</p>
+        </div>
+      </header>
+      <section class="counters">
+        <div><b class="cn" data-n="100">0</b><span>Usuários</span></div>
+        <div><b class="cn" data-n="50">0</b><span>Recursos</span></div>
+        <div><b class="cn" data-n="5">0</b><span>Prêmios</span></div>
+      </section>
+      <section id="sobre">
+        <h2>Sobre o projeto</h2>
+        <p>
+          Gerencia a agenda de compromissos do cliente e do barbeiro de forma
+          totalmente online.
+        </p>
+      </section>
+      <section id="contato">
+        <h2>Contato</h2>
+        <p>📧 emanoel.brian.maffei@senai.br</p>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
