@@ -35,7 +35,7 @@ function renderizarTabela(event) {
         const tabelaHTML = XLSX.utils.sheet_to_html(planilha1);
         console.log(planilha1)
 
-        document.body.innerHTML += tabelaHTML;
+        document.getElementById("conteiner-tabela").innerHTML += tabelaHTML;
     }
     
     leitor.readAsArrayBuffer(arquivo);
