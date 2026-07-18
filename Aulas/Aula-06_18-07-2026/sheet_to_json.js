@@ -20,4 +20,4 @@ console.log("\nPágina Usuário:\n\n", abaUsuarios);
 console.log("==================================================")
 
 // Imprimindo a abas/página Usuários em formato JSON
-console.log("\nJSON criado da : \n\n", abaUsuariosJSON);
+console.log("\nJSON criado da Página Usuário: \n\n", abaUsuariosJSON);
